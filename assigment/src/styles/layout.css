@@ -1,0 +1,26 @@
+.app-container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fff;
+}
+
+.mobile-container {
+  width: 375px;
+  height: 100%;
+  border: 1px solid gray;
+  background: #f7f8f9;
+
+  padding: 20px;
+
+  position: relative;
+}
+
+.bottom-section {
+  position: absolute;
+  bottom: 40px;
+  width: 90%;
+}

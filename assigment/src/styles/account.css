@@ -1,0 +1,98 @@
+
+.account-header {
+  padding: 16px 20px;
+
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+
+.account-body {
+  background: #f7f8f9;
+
+  padding: 20px;
+
+  height: 100%;
+}
+
+
+.profile-row {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+
+.image-wrapper {
+  position: relative;
+}
+
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+
+.camera-icon {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  width: 22px;
+  height: 22px;
+
+  background: #6c25ff;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+
+  color: white;
+
+  border: 2px solid white;
+}
+
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.profile-email {
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+
+.profile-description {
+  margin-top: 15px;
+
+  font-size: 14px;
+
+  color: #444;
+
+  line-height: 1.5;
+}
+
+
+.divider {
+  margin-top: 20px;
+
+  border-top: 1px dashed #ccc;
+}
