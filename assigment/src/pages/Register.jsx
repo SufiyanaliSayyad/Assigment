@@ -19,7 +19,7 @@ const Register = () => {
     },
   });
 
-  const agencyValue = watch("agency");
+  // const agencyValue = watch("agency");
 
   const onSubmit = (data) => {
     console.log(data);
@@ -28,7 +28,9 @@ const Register = () => {
 
   return (
     <MobileLayout>
-      <h1 style={{ fontSize: "38px",marginBottom:"20px" }}>Create your PopX account</h1>
+      <h1 style={{ fontSize: "38px", marginBottom: "20px" }}>
+        Create your PopX account
+      </h1>
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <InputField
